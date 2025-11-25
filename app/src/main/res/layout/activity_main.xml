@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> <LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:padding="16dp"> <ScrollView
+        android:id="@+id/scrollView" 
+        android:layout_width="match_parent" 
+        android:layout_height="0dp" 
+        android:layout_weight="1"> <LinearLayout
+            android:id="@+id/chatContainer" 
+            android:orientation="vertical" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" />
+    </ScrollView> <EditText android:id="@+id/inputText" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="Type command here" />
+    <Button android:id="@+id/sendButton" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Send" />
+</LinearLayout>
